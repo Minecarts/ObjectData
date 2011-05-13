@@ -43,4 +43,9 @@ public class ObjectDataMap {
         return map.keySet().toArray(new String[0]);
     }
     
+    public boolean hasKey(Object obj, String key) {
+        WeakHashMap<Object, Object> data = map.get(key);
+        return data == null ? false : data.containsKey(obj);
+    }
+    
 }
