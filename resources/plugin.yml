@@ -1,0 +1,6 @@
+name: ObjectData
+main: com.minecarts.objectdata.ObjectData
+version: ${pom.version}
+website: http://minecarts.com/
+author: megabytes
+description: Object-associated data storage

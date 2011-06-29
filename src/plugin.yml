@@ -1,6 +1,0 @@
-name: ObjectData
-main: com.minecarts.objectdata.ObjectData
-version: 1.0.2
-website: http://minecarts.com/
-author: megabytes
-description: Object-associated data storage
